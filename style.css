@@ -75,3 +75,53 @@ nav button {
 hero button:hover {
     background-color: #0056b3;
 }
+.speakers{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.speakers h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.speaker-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speaker-card{
+    background: white;
+}
+
+.speaker-card img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+}
+
+.speaker-info{
+    padding: 20px;
+}
+
+.speaker-info h5{
+    color: #007BFF;
+    font-size: 12px;
+    margin-bottom: 8px;
+    
+}
+
+.speaker-info h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.speaker-info p{
+    color: black;
+    font-size: 14px;
+}
