@@ -244,7 +244,7 @@ nav button {
 .sponsor-text{
     max-width: 700px;
     margin: 0 auto 50px;
-    color: gray;
+    color: black;
     font-size: 17px;
     line-height: 1.7;
 }
@@ -288,7 +288,81 @@ nav button {
 }
 
 .sponsor-card p{
-    color: gray;
+    color: black;
     font-size: 15px;
     line-height: 1.6;
+}
+/* Venue Section */
+
+.venue{
+    padding: 80px 10%;
+    background: whitesmoke;
+}
+
+.venue h2{
+    text-align: center;
+    font-size: 42px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.venue-text{
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+    color: gray;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+
+.venue-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: burlywood;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.venue-image{
+    flex: 1;
+}
+
+.venue-image img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.venue-info{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.venue-card{
+    background: whitesmoke;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.venue-card h3{
+    color: blue;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.venue-card p{
+    color: gray;
+    line-height: 1.6;
+}
+
+.venue-card:hover{
+    transform: translateY(-6px);
+    transition: .3s;
 }
