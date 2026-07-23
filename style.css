@@ -366,3 +366,52 @@ nav button {
     transform: translateY(-6px);
     transition: .3s;
 }
+/* FAQ Section */
+
+.faq{
+    padding: 80px 10%;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.faq h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.faq-text{
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.faq-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.faq-card{
+    width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.faq-card h3{
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.faq-card p{
+    color: gray;
+    line-height: 1.6;
+}
+
+.faq-card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
