@@ -533,7 +533,6 @@ nav button {
     .pricing-card{
         width: 100%;
     }
-    }
     sponser-container{
         grid-template-columns: 1fr;
     }
@@ -543,3 +542,4 @@ nav button {
     .faq-container{
         grid-template-columns: 1fr;
     }
+}
