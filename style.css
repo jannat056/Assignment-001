@@ -505,10 +505,13 @@ nav button {
         flex-direction: column;
         gap: 10px;
     }
-    .hero-direction{
+    .hero{
         flex-direction: column;
         padding: 20px;
     
+    }
+    .hero-content{
+        width: 100%;
     }
     .hero-content h1{
         font-size: 30px;
