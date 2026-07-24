@@ -538,8 +538,31 @@ nav button {
     }
     .venue-container{
         flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    venue-card{
+        width: 100%;
+    }
+    .venue img{
+        width: 100%;
+        height: auto;
+    }
+    venue-image img{
+        width: 100%;
+        height: auto;
     }
     .faq-container{
         grid-template-columns: 1fr;
+    }
+    footer-top{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    footer>div{
+        width: 100%;
     }
 }
