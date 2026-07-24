@@ -500,3 +500,24 @@ nav button {
     margin-top: 20px;
     color: gray;
 }
+@media (max-width: 700px){
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-direction{
+        flex-direction: column;
+        padding: 20px;
+    
+    }
+    .hero-content h1{
+        font-size: 30px;
+    }
+    .hero-content p{
+        font-size: 14px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
