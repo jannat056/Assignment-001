@@ -530,9 +530,9 @@ nav button {
     .speaker-container{
         grid-template-columns: 1fr;
     }
-    .pricing-container{
-        flex-direction: column;
-        align-items: center;
+    .pricing-card{
+        width: 100%;
+    }
     }
     sponser-container{
         grid-template-columns: 1fr;
@@ -543,4 +543,3 @@ nav button {
     .faq-container{
         grid-template-columns: 1fr;
     }
-}
